@@ -1,7 +1,7 @@
-// Demo Service A - v28 auto-cascade test
+// Demo Service A - v29 pointer verification
 function handler(req, res) {
-  console.log("v28 server-side pointer alignment test in Service A");
-  return { status: 200, message: "Hello from Service A v28-auto-cascade-test" };
+  console.log("v29 pointer verification in Service A");
+  return { status: 200, message: "Hello from Service A v29-pointer-verification" };
 }
 
 module.exports = { handler };
