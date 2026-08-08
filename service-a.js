@@ -1,7 +1,7 @@
-// Demo Service A - v5 test
+// Demo Service A - v6 test
 function handler(req, res) {
-  console.log("v5 test in Service A");
-  return { status: 200, message: "Hello from Service A v5-synchronous-lambda" };
+  console.log("v6 test in Service A");
+  return { status: 200, message: "Hello from Service A v6-final-test" };
 }
 
 module.exports = { handler };
