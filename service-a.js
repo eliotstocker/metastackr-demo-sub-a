@@ -1,7 +1,7 @@
-// Demo Service A - v14 test
+// Demo Service A - v15 test
 function handler(req, res) {
-  console.log("v14 test in Service A");
-  return { status: 200, message: "Hello from Service A v14-clean-dedup-test" };
+  console.log("v15 test in Service A");
+  return { status: 200, message: "Hello from Service A v15-cascade-merge-success" };
 }
 
 module.exports = { handler };
