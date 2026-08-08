@@ -1,7 +1,7 @@
-// Demo Service A
+// Demo Service A - v2 test
 function handler(req, res) {
-  console.log("Processing request in Service A - v2");
-  return { status: 200, message: "Hello from Service A v2" };
+  console.log("v2 test request in Service A");
+  return { status: 200, message: "Hello from Service A v2-test" };
 }
 
 module.exports = { handler };
