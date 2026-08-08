@@ -1,7 +1,7 @@
-// Demo Service A - v2 test
+// Demo Service A - v3 clean test
 function handler(req, res) {
-  console.log("v2 test request in Service A");
-  return { status: 200, message: "Hello from Service A v2-test" };
+  console.log("v3 clean test request in Service A");
+  return { status: 200, message: "Hello from Service A v3-clean-test" };
 }
 
 module.exports = { handler };
