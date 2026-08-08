@@ -1,7 +1,7 @@
-// Demo Service A - v19 test
+// Demo Service A - v20 test
 function handler(req, res) {
-  console.log("v19 test in Service A");
-  return { status: 200, message: "Hello from Service A v19-single-sticky-comment-only" };
+  console.log("v20 test in Service A");
+  return { status: 200, message: "Hello from Service A v20-clean-body-test" };
 }
 
 module.exports = { handler };
