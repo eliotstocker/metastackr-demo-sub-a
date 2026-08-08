@@ -1,7 +1,7 @@
-// Demo Service A - v21 test
+// Demo Service A - v22 test
 function handler(req, res) {
-  console.log("v21 test in Service A");
-  return { status: 200, message: "Hello from Service A v21-metastackr-bot-author-test" };
+  console.log("v22 test in Service A");
+  return { status: 200, message: "Hello from Service A v22-metastackr-bot-sticky-comment-test" };
 }
 
 module.exports = { handler };
