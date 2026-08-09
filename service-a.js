@@ -1,7 +1,7 @@
-// Demo Service A - v30 submodule path alignment
+// Demo Service A - v32 VCSProvider end-to-end verification
 function handler(req, res) {
-  console.log("v30 submodule path alignment in Service A");
-  return { status: 200, message: "Hello from Service A v30" };
+  console.log("v32 VCSProvider end-to-end verification in Service A");
+  return { status: 200, message: "Hello from Service A v32 VCSProvider end-to-end verification!" };
 }
 
 module.exports = { handler };
